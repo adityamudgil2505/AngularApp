@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { $ } from 'protractor';
 
 @Component({
   selector: 'app-test',
@@ -17,10 +18,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TestComponent implements OnInit {
   public knowFramework = false;
+  public answer:string="";
   constructor() { }
-
   ngOnInit() {
   }
-
-
 }
