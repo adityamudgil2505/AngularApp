@@ -15,6 +15,12 @@
 <br>
 <h2>{{inputText | slice:3}}</h2> -->
 
-<h1>Structural Directive</h1>
+<!-- <h1>Structural Directive</h1>
 <button (click)="onClick()">{{btnContent}}</button>
-<h2 *ngIf="isChecked">Aditya</h2>
+<h2 *ngIf="isChecked">Aditya</h2> -->
+
+<h1>Now working on Angular Service</h1>
+  <div *ngFor="let employee of employees">
+    <span>{{employee.id}} - {{employee.name}}</span>
+    <span style="margin-left: 40px;">{{employee.skill}}</span>
+  </div>
