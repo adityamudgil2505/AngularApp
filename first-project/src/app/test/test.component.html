@@ -3,7 +3,7 @@
 </p>
 <label>Do you know any frontend framwork?</label>
 <br>
-<input [(ngModel)]="inputText" type="text">
+<!-- <input [(ngModel)]="inputText" type="text">
 <br>
 <h2>{{inputText}}</h2>
 <br>
@@ -13,4 +13,8 @@
 <br>
 <h2>{{inputText | titlecase}}</h2>
 <br>
-<h2>{{inputText | slice:3}}</h2>
+<h2>{{inputText | slice:3}}</h2> -->
+
+<h1>Structural Directive</h1>
+<button (click)="onClick()">{{btnContent}}</button>
+<h2 *ngIf="isChecked">Aditya</h2>
