@@ -17,8 +17,7 @@ import { $ } from 'protractor';
   }`]
 })
 export class TestComponent implements OnInit {
-  public knowFramework = false;
-  public answer:string="";
+  public inputText:string="";
   constructor() { }
   ngOnInit() {
   }
