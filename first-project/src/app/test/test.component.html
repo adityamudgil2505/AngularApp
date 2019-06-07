@@ -20,7 +20,9 @@
 <h2 *ngIf="isChecked">Aditya</h2> -->
 
 <h1>Now working on Angular Service</h1>
-  <div *ngFor="let employee of employees">
-    <span>{{employee.id}} - {{employee.name}}</span>
-    <span style="margin-left: 40px;">{{employee.skill}}</span>
+  <div *ngFor="let employee of employees; index as id">
+    <span>{{id}} - {{employee.name}}</span><br>
+    <span>{{employee.company}} - {{employee.location}}</span><br>
+    <span style="margin-left: 40px;">{{employee.bio}}</span>
+    <!-- <img src = {{employee.avatar_url}}> -->
   </div>
